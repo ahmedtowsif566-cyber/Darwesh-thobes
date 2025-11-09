@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Darwish Thobe — Contact</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand">
+      <img id="siteLogoContact" src="logo.jpeg" alt="Darwish logo">
+      <div>
+        <h1 id="brandNameContact">Darwish Thobes</h1>
+        <p id="brandTagContact">Traditional • Luxurious • Tailored</p>
+      </div>
+    </div>
+
+    <nav class="main-nav">
+      <a href="index.html" class="nav-link">Home</a>
+      <a href="about.html" class="nav-link">About</a>
+      <a href="shop.html" class="nav-link">Shop</a>
+      <a href="contact.html" class="nav-link active">Contact</a>
+
+      <div class="lang-switch">
+        <button id="enBtnC" class="lang-btn active">EN</button>
+        <button id="arBtnC" class="lang-btn">ع</button>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="contact-grid">
+      <div class="card form-card">
+        <h3 id="contactTitle">Contact Us</h3>
+        <p id="contactText" class="muted">Send inquiries, custom requests or bulk orders.</p>
+
+        <input id="name" type="text" placeholder="Your name">
+        <input id="email" type="email" placeholder="Your email">
+        <input id="subject" type="text" placeholder="Subject">
+        <textarea id="message" rows="6" placeholder="Message"></textarea>
+        <button class="btn" onclick="submitForm()">Send Message</button>
+
+        <p class="muted small">Or email us directly: <a id="mailtoLink" href="mailto:ahmedtowsif566@gmail.com">ahmedtowsif566@gmail.com</a></p>
+      </div>
+
+      <div>
+        <div class="card">
+          <h4 id="visitTitle">Visit / Orders</h4>
+          <p id="visitText">We accept studio visits by appointment. For custom orders, please contact us to schedule measurements.</p>
+          <p class="muted"><strong>Phone:</strong> <span id="phone">+1 (New York)</span></p>
+          <p class="muted"><strong>Location:</strong> <span id="address">New York, USA</span></p>
+        </div>
+
+        <div style="margin-top:16px; text-align:center;">
+          <!-- Replace image if you want a shop photo here -->
+          <img src="images/thobe2.jpg" alt="Shop photo" style="max-width:320px; width:100%; border-radius:10px;">
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div id="footerTextContact">© <span id="yearC"></span> Darwish Thobe — All rights reserved.</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

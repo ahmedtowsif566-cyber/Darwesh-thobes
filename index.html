@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Darwish Thobe — Home</title>
+  <link rel="stylesheet" href="styles.css">
+  <!-- Google fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand">
+      <!-- REPLACE THIS SRC with your logo file or URL -->
+      <img id="siteLogo" src="logo.jpeg" alt="Darwish logo">
+      <div>
+        <h1 id="brandName">Darwish Thobes</h1>
+        <p id="brandTag">Traditional • Luxurious • Tailored</p>
+      </div>
+    </div>
+
+    <nav class="main-nav">
+      <a href="index.html" class="nav-link" data-page="home">Home</a>
+      <a href="about.html" class="nav-link" data-page="about">About</a>
+      <a href="shop.html" class="nav-link" data-page="shop">Shop</a>
+      <a href="contact.html" class="nav-link" data-page="contact">Contact</a>
+
+      <div class="lang-switch">
+        <button id="enBtn" class="lang-btn active">EN</button>
+        <button id="arBtn" class="lang-btn">ع</button>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div class="hero-text">
+        <div class="kicker" id="heroTop">Established 2025 • Hand-finished</div>
+        <h2 id="heroTitle">Welcome to Darwish Thobe — where tradition meets modern luxury.</h2>
+        <p id="heroDesc">Premium fabrics, custom tailoring and timeless designs inspired by tradition and refined for modern elegance.</p>
+
+        <div class="hero-actions">
+          <a class="btn gold" href="shop.html" id="shopCta">Shop Collection</a>
+          <a class="btn" href="contact.html" id="inquireCta">Request Custom Order</a>
+        </div>
+
+        <p class="muted" id="homeExtra">We also accept bespoke orders and bulk tailoring for events or retailers.</p>
+      </div>
+
+      <div class="hero-img">
+        <!-- PUT HERO IMAGE HERE: example images/thobe1.jpg or an external URL -->
+        <img src="button-extra.jpg" alt="Thobe hero">
+      </div>
+    </section>
+
+    <section class="featured">
+      <h3 id="featuredTitle">Featured Collection</h3>
+
+      <div class="products-grid" id="featuredGrid">
+        <!-- Product card 1 -->
+        <article class="product-card">
+          <!-- Replace with your image -->
+          <div class="product-media"><img src="cream-white.jpg" alt="Thobe 1"></div>
+          <h4 class="product-title" data-key="p1Title">Classic White Thobe</h4>
+          <p class="product-desc" data-key="p1Desc">Clean cut, premium cotton blend. Perfect for formal and everyday wear.</p>
+          <div class="product-meta">
+            <div class="price" data-key="p1Price">$75</div>
+            <a class="btn gold" href="contact.html" onclick="prefillSubject(1)">Inquire</a>
+          </div>
+        </article>
+
+        <!-- Product card 2 -->
+        <article class="product-card">
+          <!-- Replace with your image -->
+          <div class="product-media"><img src="white.jpg" alt="Thobe 2"></div>
+          <h4 class="product-title" data-key="p2Title">Tailored Elegance</h4>
+          <p class="product-desc" data-key="p2Desc">Slim profile with reinforced seams. Available in multiple sizes.</p>
+          <div class="product-meta">
+            <div class="price" data-key="p2Price">$95</div>
+            <a class="btn gold" href="contact.html" onclick="prefillSubject(2)">Inquire</a>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div id="footerText">© <span id="year"></span> Darwish Thobe — All rights reserved.</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

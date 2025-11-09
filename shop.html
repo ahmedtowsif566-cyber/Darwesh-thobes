@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Darwish Thobe — Shop</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand">
+      <img id="siteLogoShop" src="logo.jpeg"Darwish logo">
+      <div>
+        <h1 id="brandNameShop">Darwish Thobes</h1>
+        <p id="brandTagShop">Traditional • Luxurious • Tailored</p>
+      </div>
+    </div>
+
+    <nav class="main-nav">
+      <a href="index.html" class="nav-link">Home</a>
+      <a href="about.html" class="nav-link">About</a>
+      <a href="shop.html" class="nav-link active">Shop</a>
+      <a href="contact.html" class="nav-link">Contact</a>
+
+      <div class="lang-switch">
+        <button id="enBtnS" class="lang-btn active">EN</button>
+        <button id="arBtnS" class="lang-btn">ع</button>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section>
+      <h2 id="shopTitle">Shop</h2>
+      <p id="shopIntro" class="muted">Browse our ready-to-ship and bespoke pieces. Click a product to inquire or request measurements.</p>
+    </section>
+
+    <section class="products-grid" id="shopGrid">
+      <!-- You can add more product-card blocks here. Replace images and text as needed. -->
+      <article class="product-card">
+        <div class="product-media"><img src="white.jpg" alt="Thobe 1"></div>
+        <h4 class="product-title">Classic White Thobe</h4>
+        <p class="product-desc">Clean cut, premium cotton blend.</p>
+        <div class="product-meta">
+          <div class="price">$75</div>
+          <a class="btn gold" href="contact.html" onclick="prefillSubject(1)">Inquire</a>
+        </div>
+      </article>
+
+      <article class="product-card">
+        <div class="product-media"><img src="cream-white.jpg" alt="Thobe 2"></div>
+        <h4 class="product-title">Tailored Elegance</h4>
+        <p class="product-desc">Slim profile with reinforced seams.</p>
+        <div class="product-meta">
+          <div class="price">$95</div>
+          <a class="btn gold" href="contact.html" onclick="prefillSubject(2)">Inquire</a>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div id="footerTextShop">© <span id="yearS"></span> Darwish Thobe — All rights reserved.</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
