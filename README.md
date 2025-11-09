@@ -242,7 +242,7 @@
             <div class="card" style="padding:18px">
               <h4 id="visitTitle">Visit / Orders</h4>
               <p id="visitText" class="product-desc">We accept studio visits by appointment. For custom orders, please contact us to schedule measurements.</p>
-              <p style="margin-top:12px; font-weight:700;">Phone: +19174715339</p>
+              <p style="margin-top:12px; font-weight:700;">Phone: +1(917)471-5339</p>
               <p style="font-weight:700;">Address: City, Country</p>
             </div>
 
