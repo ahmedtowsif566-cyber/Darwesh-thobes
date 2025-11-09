@@ -242,7 +242,7 @@
             <div class="card" style="padding:18px">
               <h4 id="visitTitle">Visit / Orders</h4>
               <p id="visitText" class="product-desc">We accept studio visits by appointment. For custom orders, please contact us to schedule measurements.</p>
-              <p style="margin-top:12px; font-weight:700;">Phone: +1 917 471 5339</p>
+              <p style="margin-top:12px; font-weight:700;">Phone: +19174715339</p>
               <p style="font-weight:700;">Address: City, Country</p>
             </div>
 
@@ -291,10 +291,10 @@
         featuredTitle: "Featured Collection",
         p1Title: "Classic White Thobe",
         p1Desc: "Clean cut, premium cotton blend. Perfect for formal and everyday wear.",
-        p1Price: "$75",
+        p1Price: "$60",
         p2Title: "Tailored Elegance",
         p2Desc: "Slim profile with reinforced seams. Available in multiple sizes.",
-        p2Price: "$95",
+        p2Price: "$60",
         aboutTitle: "Our Story",
         aboutText: "Darwesh Thobes is a family-run house blending craftsman tailoring with modern finishing. We source high-quality fabrics and tailor each piece to meet our customers' preferences.",
         aboutExtra: "We offer custom sizing, fabric selection and fast shipping worldwide.",
