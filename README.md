@@ -161,7 +161,7 @@
               <h4 class="product-title" data-key="p1Title">Classic White Thobe</h4>
               <p class="product-desc" data-key="p1Desc">Clean cut, premium cotton blend. Perfect for formal and everyday wear.</p>
               <div style="margin-top:auto; display:flex; justify-content:space-between; align-items:center;">
-                <div class="price" data-key="p1Price">$75</div>
+                <div class="price" data-key="p1Price">$60</div>
                 <button class="cta" onclick="openProduct(1)" style="padding:8px 10px">View</button>
               </div>
             </article>
@@ -171,7 +171,7 @@
               <h4 class="product-title" data-key="p2Title">Tailored Elegance</h4>
               <p class="product-desc" data-key="p2Desc">Slim profile with reinforced seams. Available in multiple sizes.</p>
               <div style="margin-top:auto; display:flex; justify-content:space-between; align-items:center;">
-                <div class="price" data-key="p2Price">$95</div>
+                <div class="price" data-key="p2Price">$60</div>
                 <button class="cta" onclick="openProduct(2)" style="padding:8px 10px">View</button>
               </div>
             </article>
